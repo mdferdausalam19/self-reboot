@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>REBOOT</title>
+    <meta name="description" content="Paused. Refreshed. Back in motion.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Orbitron:wght@900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <main class="screen" id="screen" aria-label="Reboot animation">
+        <div class="power"></div>
+
+        <section class="terminal" aria-hidden="true">
+            <p class="line"><span>power on</span><i></i><b>OK</b></p>
+            <p class="line"><span>loading memory</span><i></i><b>OK</b></p>
+            <p class="line"><span>loading skills</span><i></i><b>OK</b></p>
+            <p class="line"><span>clearing old cache</span><i></i><b>OK</b></p>
+            <p class="line"><span>restoring momentum</span><i></i><b>OK</b></p>
+            <p class="line"><span>syncing ideas</span><i></i><b>OK</b></p>
+            <p class="line"><span>starting reboot</span><i></i><b>OK</b></p>
+            <div class="bar"><i></i></div>
+            <p class="pct" id="pct">0%</p>
+        </section>
+
+        <section class="hero">
+            <h1 data-text="REBOOT">REBOOT</h1>
+            <p class="status">system online</p>
+            <p class="cmd">$ begin --next-chapter<span class="caret"></span></p>
+        </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
